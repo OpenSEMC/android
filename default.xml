@@ -378,4 +378,6 @@
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" />
   <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" />
   <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" revision="jellybean" />
+  <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" />
+  <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" />
 </manifest>
