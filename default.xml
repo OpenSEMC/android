@@ -12,7 +12,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="CyanogenMod/android_build" revision="refs/heads/phablet-10.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
