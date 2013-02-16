@@ -376,4 +376,6 @@
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" />
   <project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" />
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" />
+  <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" />
+  <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" revision="jellybean" />
 </manifest>
