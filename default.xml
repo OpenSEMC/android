@@ -371,6 +371,9 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
+  <project path="ubuntu/assets" name="ubuntu/assets" />
+  <project path="ubuntu/uchroot" name="ubuntu/uchroot" />
+
   <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
   <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" />
