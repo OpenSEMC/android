@@ -19,9 +19,9 @@
   <project path="android" name="CyanogenMod/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
-  <project path="bionic" name="CyanogenMod/android_bionic" />
+  <project path="bionic" name="CyanogenMod/android_bionic" revision="refs/heads/phablet-10.1" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" revision="refs/heads/phablet-10.1" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
@@ -81,7 +81,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
 
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" revision="refs/heads/phablet-10.1" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
@@ -151,12 +151,12 @@
   <project path="ubuntu/uchroot" name="ubuntu/uchroot" />
 
   <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
-  <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
+  <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" revision="refs/heads/phablet-10.1" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" />
-  <project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" />
+  <project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" revision="refs/heads/phablet-10.1" />
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" />
-  <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" />
+  <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" revision="refs/heads/phablet-10.1" />
   <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" revision="jellybean" />
-  <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" />
+  <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" revision="refs/heads/phablet-10.1" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" />
 </manifest>
