@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="phablet"
-           fetch="git://phablet.ubuntu.com/git" />
+           fetch="git://phablet.ubuntu.com" />
 
   <default revision="refs/heads/phablet-10.1"
            remote="phablet"
