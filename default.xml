@@ -10,6 +10,9 @@
            
   <remote  name="opensemc"
            fetch="git://github.com/OpenSEMC/" />
+           
+  <remote  name="teamwin"
+           fetch="git://github.com/TeamWin/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -28,7 +31,7 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="Team-Win-Recovery-Project" remote="teamwin" revision="twrp2.4" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
