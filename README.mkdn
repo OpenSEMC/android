@@ -5,18 +5,13 @@ OpenSEMC
 Getting Started
 ---------------
 
-To get started with Android/CyanogenMod/OpenSEMC, you'll need to get
+To get started with Ubuntu-Touch/OpenSEMC, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/OpenSEMC/android.git -b cm-10.1
+    repo init -u git://github.com/OpenSEMC/android.git -b cm-10.1-ubuntu
 
 Then to sync up:
 
     repo sync
-
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/index.php/Github_Organization)
