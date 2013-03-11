@@ -258,7 +258,6 @@
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="opensemc" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="opensemc" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" />
