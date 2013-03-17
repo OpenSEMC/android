@@ -166,7 +166,7 @@
   <project path="ubuntu/hybris" name="android_ubuntu_hybris" remote="evervolv" revision="refs/heads/jellybean-ubuntuphone"/>
   <project path="ubuntu/platform-api" name="android_ubuntu_platform-api" remote="evervolv" revision="refs/heads/jellybean-ubuntuphone"/>
 
-  <!-- Xperia S specific parts
+  <!-- Xperia S specific parts -->
   <project path="device/sony/common" name="android_device_sony_common" remote="opensemc" revision="cm-10.1" />
   <project path="device/sony/nozomi" name="android_device_sony_nozomi" remote="opensemc" revision="cm-10.1-ubuntu" />
   <project path="device/sony/fuji-common" name="android_device_sony_fuji-common" remote="opensemc" revision="cm-10.1" />
