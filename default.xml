@@ -38,6 +38,7 @@
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
+  <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" />
   <project path="external/expat" name="CyanogenMod/android_external_expat" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" />
