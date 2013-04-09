@@ -94,9 +94,9 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
 
-  <project path="frameworks/av" name="android_frameworks_av" remote="opensemc" revision="cm-10.1" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="opensemc" revision="cm-10.1" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
 
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
