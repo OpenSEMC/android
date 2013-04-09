@@ -22,7 +22,7 @@
   <default revision="refs/heads/phablet-10.1"
            remote="phablet"
            sync-c="true"
-           sync-j="4" />
+           sync-j="1" />
 
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -50,6 +50,7 @@
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
+  <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" />
   <project path="external/expat" name="CyanogenMod/android_external_expat" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" />
@@ -173,5 +174,4 @@
   <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="opensemc" revision="cm-10.1" />
   <project path="kernel/sony/msm8x60" name="android_kernel_sony_msm8x60" remote="opensemc" revision="ubuntu-touch" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="opensemc" revision="cm-10.1" />
-
 </manifest>
