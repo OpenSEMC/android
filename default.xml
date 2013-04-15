@@ -152,14 +152,4 @@
 
   <project path="ubuntu/assets" name="ubuntu/assets" revision="refs/heads/master" />
   <project path="ubuntu/uchroot" name="ubuntu/uchroot" revision="refs/heads/master" />
-
-  <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
-  <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
-  <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" />
-  <project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" />
-  <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" />
-  <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" />
-  <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" />
-  <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" />
-  <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" />
 </manifest>
