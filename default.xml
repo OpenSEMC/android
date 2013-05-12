@@ -107,7 +107,7 @@
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="opensemc" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="opensemc" revision="cm-10.1" /> 
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="opensemc" revision="cm-10.1" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="opensemc" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="opensemc" revision="cm-10.1" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" />
