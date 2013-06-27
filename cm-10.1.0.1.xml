@@ -8,22 +8,19 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
-           
-  <remote  name="opensemc"
-           fetch="git://github.com/OpenSEMC/" />
-           
-  <remote  name="teamwin"
-           fetch="git://github.com/TeamWin/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/cm-10.1"
+  <!-- 10.1.0.x is built against the main 10.1.0 core, with
+       the updates for the point-release explicitly requesting
+       a different tag at the bottom of this manifest -->
+  <default revision="refs/tags/cm-10.1.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="CyanogenMod/android_build" revision="refs/tags/cm-10.1.0.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -32,7 +29,7 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="Team-Win-Recovery-Project" remote="teamwin" revision="twrp2.4" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
@@ -98,7 +95,6 @@
   <project path="external/gcc-demangle" name="CyanogenMod/android_external_gcc-demangle" />
   <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" />
   <project path="external/giflib" name="CyanogenMod/android_external_giflib" />
-  <project path="external/google" name="CyanogenMod/android_external_google" />
   <project path="external/google-diff-match-patch" name="CyanogenMod/android_external_google-diff-match-patch" />
   <project path="external/grub" name="CyanogenMod/android_external_grub" />
   <project path="external/gtest" name="CyanogenMod/android_external_gtest" />
@@ -222,7 +218,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="opensemc" revision="cm-10.1" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
@@ -232,7 +228,7 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="opensemc" revision="cm-10.1" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
@@ -252,23 +248,22 @@
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="opensemc" revision="cm-10.1" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="opensemc" revision="cm-10.1" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="opensemc" revision="cm-10.1" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="opensemc" revision="cm-10.1" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="opensemc" revision="cm-10.1" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
-  <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" remote="opensemc" revision="cm-10.1" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
@@ -383,13 +378,12 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
-  
-  <project path="device/sony/nozomi" name="android_device_sony_nozomi" remote="opensemc" revision="cm-10.1" />
-  <project path="device/sony/common" name="android_device_sony_common" remote="opensemc" revision="cm-10.1" />
-  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="opensemc" revision="cm-10.1" />
-  <project path="device/sony/fuji-common" name="android_device_sony_fuji-common" remote="opensemc" revision="cm-10.1" />
-  <project path="kernel/sony/msm8x60" name="android_kernel_sony_msm8x60" remote="opensemc" revision="opensemc-fusion-mr1.1" />
-  <project path="vendor/sony" name="proprietary_vendor_sony" remote="opensemc" revision="cm-10.1" />
-  
+
+  <!-- Device repos that differ for 10.1.0.1 -->
+  <project name="CyanogenMod/android_device_amazon_otter" path="device/amazon/otter" remote="github" />
+  <project name="CyanogenMod/android_device_amazon_otter2" path="device/amazon/otter2" remote="github" />
+  <project name="CyanogenMod/android_device_amazon_otter-common" path="device/amazon/otter-common" remote="github" revision="refs/tags/cm-10.1.0.1" />
+  <project name="CyanogenMod/android_device_amazon_omap4-common" path="device/amazon/omap4-common" remote="github" />
+  <project name="CyanogenMod/android_kernel_amazon_otter-common" path="kernel/amazon/otter-common" remote="github" revision="refs/tags/cm-10.1.0.1" />
+
 </manifest>
