@@ -385,6 +385,8 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
   
+  <project path="device/sony/aoba" name="android_device_sony_aoba" remote="opensemc" revision="cm-10.1" />
+  <project path="device/sony/hikari" name="android_device_sony_hikari" remote="opensemc" revision="cm-10.1" />
   <project path="device/sony/nozomi" name="android_device_sony_nozomi" remote="opensemc" revision="cm-10.1" />
   <project path="device/sony/common" name="android_device_sony_common" remote="opensemc" revision="cm-10.1" />
   <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="opensemc" revision="cm-10.1" />
