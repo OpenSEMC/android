@@ -385,13 +385,15 @@
   <!-- Device repos that differ for 10.1.0.x -->
   <project name="CyanogenMod/android_device_amazon_otter" path="device/amazon/otter" remote="github" />
   <project name="CyanogenMod/android_device_amazon_otter2" path="device/amazon/otter2" remote="github" />
-  <project name="CyanogenMod/android_device_amazon_otter-common" path="device/amazon/otter-common" remote="github" revision="refs/tags/cm-10.1.0.1" />
+  <project name="CyanogenMod/android_device_amazon_otter-common" path="device/amazon/otter-common" remote="github" revision="refs/tags/cm-10.1.0.2" />
   <project name="CyanogenMod/android_device_amazon_omap4-common" path="device/amazon/omap4-common" remote="github" />
 
-  <project name="CyanogenMod/android_device_samsung_d2vzw" path="device/samsung/d2vzw" remote="github" revision="refs/tags/cm-10.1.0.2" />
+  <project name="CyanogenMod/android_device_samsung_d2vzw" path="device/samsung/d2vzw" remote="github" revision="refs/tags/cm-10.1.0.3" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" />
   <project name="CyanogenMod/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="github" />
+
+  <project name="CyanogenMod/android_device_lge_p760" path="device/lge/p760" remote="github" revision="refs/tags/cm-10.1.0.1" />
 
 
 </manifest>
