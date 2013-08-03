@@ -274,6 +274,7 @@
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="opensemc" revision="cm-10.2" groups="caf" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="opensemc" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="opensemc" revision="cm-10.2" groups="qcom" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="opensemc" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="opensemc" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
