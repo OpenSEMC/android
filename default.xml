@@ -144,6 +144,7 @@
   <project path="external/libogg" name="CyanogenMod/android_external_libogg" />
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
   <project path="external/libphonenumber" name="CyanogenMod/android_external_libphonenumber" />
+  <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
@@ -249,6 +250,7 @@
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
+  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="CyanogenMod/android_frameworks_opt_mailcommon" />
   <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" />
