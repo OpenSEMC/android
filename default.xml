@@ -426,7 +426,7 @@
   <project path="device/sony/nozomi" name="android_device_sony_nozomi" remote="opensemc" revision="cm-10.2" />
   <project path="device/sony/common" name="android_device_sony_common" remote="opensemc" revision="cm-10.2" />
   <project path="device/sony/fuji-common" name="android_device_sony_fuji-common" remote="opensemc" revision="cm-10.2" />
-  <project path="kernel/sony/msm8x60" name="android_kernel_sony_msm8x60" remote="opensemc" revision="cm-10.2" />
+  <project path="kernel/sony/msm8x60" name="android_kernel_sony_msm8x60" remote="opensemc" revision="jb-devel-mr2" />
   <project path="vendor/broadcom/wlan" name="vendor_broadcom_wlan" remote="opensemc" revision="cm-10.2" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="opensemc" revision="cm-10.2" />
 
