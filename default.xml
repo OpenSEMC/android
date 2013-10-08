@@ -48,6 +48,7 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
+  <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
@@ -73,6 +74,7 @@
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" groups="pdk" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" groups="pdk" />
+  <project path="external/crda" name="CyanogenMod/android_external_crda" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
@@ -405,6 +407,7 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
