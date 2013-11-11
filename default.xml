@@ -26,7 +26,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="omnirom" revision="android-4.3" groups="pdk" >
+  <project path="build" name="android_build" remote="opensemc" revision="omni-4.3" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
