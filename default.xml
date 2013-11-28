@@ -292,7 +292,7 @@
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="opensemc" revision="cm-11.0" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
@@ -470,7 +470,6 @@
   <project path="device/sony/aoba" name="android_device_sony_aoba" remote="opensemc" revision="cm-11.0" />
   <project path="device/sony/hikari" name="android_device_sony_hikari" remote="opensemc" revision="cm-11.0" />
   <project path="device/sony/nozomi" name="android_device_sony_nozomi" remote="opensemc" revision="cm-11.0" />
-  <project path="device/sony/common" name="android_device_sony_common" remote="opensemc" revision="cm-11.0" />
   <project path="device/sony/fuji-common" name="android_device_sony_fuji-common" remote="opensemc" revision="cm-11.0" />
   <project path="kernel/sony/msm8x60" name="android_kernel_sony_msm8x60" remote="opensemc" revision="kk_chocolate_rmfx" />
   <project path="vendor/broadcom/wlan" name="vendor_broadcom_wlan" remote="opensemc" revision="cm-11.0" />
