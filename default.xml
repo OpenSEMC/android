@@ -2,13 +2,14 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com" />
+           fetch="git://github.com/" />
 
   <remote  name="linaro-android"
-           fetch="git://android.git.linaro.org" />
+           fetch="git://android.git.linaro.org/" />
 
   <remote  name="caf"
            fetch="git://codeaurora.org/" />
