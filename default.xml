@@ -26,9 +26,7 @@
   <project path="art" name="platform/art" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -124,7 +122,6 @@
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="platform/external/icu4c" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -211,7 +208,6 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
@@ -253,7 +249,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -418,22 +413,29 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="bionic" remote="teameos" groups="pdk" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="teameos" groups="pdk" />
+  <project path="dalvik" name="dalvik" remote="teameos" groups="pdk" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="teameos" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="teameos" />
+  <project path="external/icu4c" name="external_icu4c" remote="teameos" groups="pdk" />
+  <project path="external/sqlite" name="external_sqlite" remote="teameos" groups="pdk" />
   <project path="frameworks/av" name="frameworks_av" remote="teameos" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="teameos" />
   <project path="frameworks/native" name="frameworks_native" remote="teameos" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="teameos" groups="pdk" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="teameos" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="teameos" groups="pdk" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="teameos" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="teameos" groups="pdk,linux,arm" />
   <project path="system/core" name="system_core" groups="pdk" remote="teameos" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="teameos" />
   <project path="system/media" name="system_media" groups="pdk" remote="teameos" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="teameos" />
   <project path="system/security" name="system_security" remote="teameos" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="teameos" groups="pdk" />
+  <project path="vendor/eos" name="vendor_eos" remote="teameos" groups="pdk" />
   
   <!-- TeamEos Devices -->
   <project path="device/asus/deb" name="device_asus_deb" remote="teameos" groups="notdefault,device,asus,flo" />
