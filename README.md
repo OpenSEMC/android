@@ -1,18 +1,18 @@
-Team EOS
+TeamEOS
 ===========
 
 
 Getting Started
 ---------------
 
-To get started with Team EOS, you'll need to get
+To get started with TeamEOS, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 Init core trees without any device/kernel/vendor :
 
     $ repo init -u git://github.com/teameos/manifest.git -b kk4.4
 
-Init repo with all devices, kernels and vendors supported by codefireXperiment :
+Init repo with all devices, kernels and vendors supported by TeamEOS :
 
     $ repo init -u git://github.com/teameos/manifest.git -b kk4.4 -g all,kernel,device,vendor
 
