@@ -443,7 +443,7 @@
   <project path="device/asus/flo" name="device_asus_flo" remote="teameos" revision="kk4.4" groups="notdefault,device,asus,flo" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="teameos" revision="kk4.4" groups="notdefault,device,asus,grouper" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="teameos" revision="kk4.4" groups="notdefault,device,asus,tilapia" />
-  <project path="device/lge/hammerhead" name="device_asus_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,hammerhead" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,hammerhead" />
   <project path="device/lge/mako" name="device_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,mako" />
   
   <!-- TeamEos Kernels -->
