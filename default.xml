@@ -419,7 +419,7 @@
   <project path="external/busybox" name="external_busybox" remote="teameos" revision="kk4.4" />
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/sqlite" name="external_sqlite" remote="teameos" revision="kk4.4" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" revision="kk4.4" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/av" name="frameworks_av" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="teameos" revision="kk4.4" />
   <project path="frameworks/native" name="frameworks_native" remote="teameos" revision="kk4.4" groups="pdk" />
