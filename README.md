@@ -22,7 +22,7 @@ Init repo only for a particular device :
 
 for example, to init only trees needed to build mako :
 
-    $ repo init -u git://github.com/teameos/manifest.git -b kk4.4 -g all,-notdefault,,mako,lge
+    $ repo init -u git://github.com/teameos/manifest.git -b kk4.4 -g all,-notdefault,mako,lge
 
 Init repo for multiple devices :
 
