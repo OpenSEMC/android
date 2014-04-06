@@ -434,4 +434,22 @@
   <project path="system/netd" name="system_netd" groups="pdk" remote="teameos" />
   <project path="system/security" name="system_security" remote="teameos" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="teameos" groups="pdk" />
+  
+  <!-- TeamEos Devices -->
+  <project path="device/asus/deb" name="device_asus_deb" remote="teameos" groups="notdefault,device,asus,flo" />
+  <project path="device/asus/flo" name="device_asus_flo" remote="teameos" groups="notdefault,device,asus,flo" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="teameos" groups="notdefault,device,asus,grouper" />
+  <project path="device/asus/tilapia" name="device_asus_tilapia" remote="teameos" groups="notdefault,device,asus,tilapia" />
+  <project path="device/lge/hammerhead" name="device_asus_hammerhead" remote="teameos" groups="notdefault,device,lge,hammerhead" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="teameos" groups="notdefault,device,lge,mako" />
+  
+  <!-- TeamEos Kernels -->
+  <project path="kernel/asus/flo" name="kernel_asus_flo" remote="teameos" groups="notdefault,kernel,asus,flo" />
+  <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="teameos" groups="notdefault,kernel,asus,grouper" />
+  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="teameos" groups="notdefault,kernel,lge,hammerhead" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="teameos" groups="notdefault,kernel,lge,mako" />
+  
+  <!-- TeamEos Vendors -->
+  <project path="vendor/asus" name="vendor_asus" remote="teameos" groups="notdefault,vendor,asus" />
+  <project path="vendor/lge" name="vendor_lge" remote="teameos" groups="notdefault,vendor,lge" />
 </manifest>
