@@ -455,4 +455,7 @@
   <!-- TeamEos Vendors -->
   <project path="vendor/asus" name="vendor_asus" remote="teameos" revision="kk4.4" groups="notdefault,vendor,asus" />
   <project path="vendor/lge" name="vendor_lge" remote="teameos" revision="kk4.4" groups="notdefault,vendor,lge" />
+  <project path="vendor/T-Mobile/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="teameos" revision="kk4.4" />
+  <project path="vendor/T-Mobile/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="teameos" revision="kk4.4" />
+  <project path="vendor/T-Mobile/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="teameos" revision="kk4.4" />
 </manifest>
