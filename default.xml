@@ -97,7 +97,6 @@
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -415,6 +414,7 @@
   <project path="dalvik" name="dalvik" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="teameos" revision="kk4.4" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/sepolicy" name="external_sepolicy" remote="teameos" revision="kk4.4" groups="pdk" />
