@@ -415,7 +415,9 @@
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="teameos" revision="kk4.4" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/iw" name="external_iw" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/libnl" name="external_libnl" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/libselinux" name="external_libselinux" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/sepolicy" name="external_sepolicy" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/sqlite" name="external_sqlite" remote="teameos" revision="kk4.4" groups="pdk" />
@@ -428,6 +430,8 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/EOSTools" name="packages_apps_EOSTools" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="kk4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="teameos"  revision="kk4.4" groups="pdk,linux,arm" />
   <project path="system/core" name="system_core" groups="pdk" remote="teameos" revision="kk4.4" />
