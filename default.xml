@@ -27,6 +27,7 @@
   <project path="art" name="platform/art" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
@@ -411,7 +412,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="bionic" remote="teameos" revision="kk4.4" groups="pdk" />
-  <project path="bootable/recovery" name="bootable_recovery" revision="kk4.4" remote="teameos" groups="pdk" />
   <project path="dalvik" name="dalvik" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="teameos" revision="kk4.4" />
