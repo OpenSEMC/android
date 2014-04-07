@@ -451,12 +451,22 @@
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="teameos" revision="kk4.4" groups="notdefault,device,asus,tilapia" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,hammerhead" />
   <project path="device/lge/mako" name="device_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,mako" />
-  
+  <project path="device/moto/wingray" name="device_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,wingray" />
+  <project path="device/moto/stingray" name="device_moto_stingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray" />
+  <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,umts_everest" />
+  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray_cdma" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,maguro" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toro" />
+  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toroplus" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,maguro,toro,toroplus" />
+
   <!-- TeamEos Kernels -->
   <project path="kernel/asus/flo" name="kernel_asus_flo" remote="teameos" revision="kk4.4" groups="notdefault,kernel,asus,flo" />
   <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="teameos" revision="kk4.4" groups="notdefault,kernel,asus,grouper" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,hammerhead" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,mako" />
+  <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,kernel,moto,motorola,xoom,wingray,stingray,umts_everest,everest" />
+  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,kernel,samsung,tuna,maguro,toro,toroplus" />
   
   <!-- TeamEos Vendors -->
   <project path="vendor/asus" name="vendor_asus" remote="teameos" revision="kk4.4" groups="notdefault,vendor,asus" />
