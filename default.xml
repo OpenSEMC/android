@@ -276,7 +276,6 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -412,6 +411,7 @@
   </project>
   <project path="bionic" name="bionic" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="dalvik" name="dalvik" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="libcore" name="libcore" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="teameos" revision="kk4.4" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="teameos" revision="kk4.4" groups="pdk" />
