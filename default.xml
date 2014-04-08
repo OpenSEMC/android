@@ -190,7 +190,6 @@
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
-  <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
@@ -414,6 +413,7 @@
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/libselinux" name="external_libselinux" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/proguard" name="external_proguard" remote="teameos" revision="kk4.4" groups="pdk-java" />
   <project path="external/rsync" name="external_rsync" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/sepolicy" name="external_sepolicy" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/sqlite" name="external_sqlite" remote="teameos" revision="kk4.4" groups="pdk" />
