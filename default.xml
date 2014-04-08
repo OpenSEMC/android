@@ -65,7 +65,6 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -409,6 +408,7 @@
   <project path="libcore" name="libcore" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="teameos" revision="kk4.4" />
+  <project path="external/chromium_org" name="external_chromium_org" remote="teameos" revision="kk4.4" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/iw" name="external_iw" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
@@ -462,6 +462,8 @@
   <project path="device/moto/stingray" name="device_moto_stingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray" />
   <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,umts_everest" />
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray_cdma" />
+  <project path="device/oppo/find5" name="device_oppo_find5" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,find5" />
+  <project path="device/oppo/n1" name="device_oppo_n1" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,n1" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,maguro" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toro" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toroplus" />
@@ -475,12 +477,15 @@
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,hammerhead" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,mako" />
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,kernel,moto,motorola,xoom,wingray,stingray,umts_everest,everest" />
+  <project path="kernel/oppo/msm8960" name="kernel_oppo_msm8960" remote="teameos" revision="kk4.4" groups="notdefault,kernel,oppo,find5,n1" />
   <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,kernel,samsung,tuna,maguro,toro,toroplus" />
   
   <!-- TeamEos Vendors -->
   <project path="vendor/asus" name="vendor_asus" remote="teameos" revision="kk4.4" groups="notdefault,vendor,asus" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="teameos" revision="kk4.4" groups="notdefault,vendor,htc,dlx,m7,m7spr,m7vzw,s4,jewel,evita,ville,fireball" />
   <project path="vendor/lge" name="vendor_lge" remote="teameos" revision="kk4.4" groups="notdefault,vendor,lge" />
+  <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="teameos" revision="kk4.4" groups="notdefault,vendor,oppo,find5" />
+  <project path="vendor/oppo/n1" name="vendor_oppo_n1" remote="teameos" revision="kk4.4" groups="notdefault,vendor,oppo,n1" />
   <project path="vendor/T-Mobile/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="teameos" revision="kk4.4" />
   <project path="vendor/T-Mobile/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="teameos" revision="kk4.4" />
   <project path="vendor/T-Mobile/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="teameos" revision="kk4.4" />
