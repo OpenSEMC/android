@@ -255,8 +255,6 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
-  <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
@@ -268,7 +266,6 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
@@ -425,11 +422,15 @@
   <project path="frameworks/base" name="frameworks_base" remote="teameos" revision="kk4.4" />
   <project path="frameworks/native" name="frameworks_native" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="hardware/akm" name="hardware_akm" remote="teameos" revision="kk4.4" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="teameos" revision="kk4.4" groups="broadcom_wlan" />
   <project path="hardware/cm" name="hardware_cm" remote="teameos" revision="kk4.4" />
+  <project path="hardware/invensense" name="hardware_invensense" remote="teameos" revision="kk4.4" groups="invensense" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="hardware/ril" name="hardware_ril" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="teameos" revision="kk4.4" />
