@@ -256,8 +256,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
@@ -427,6 +425,9 @@
   <project path="frameworks/base" name="frameworks_base" remote="teameos" revision="kk4.4" />
   <project path="frameworks/native" name="frameworks_native" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="teameos" revision="kk4.4" groups="broadcom_wlan" />
+  <project path="hardware/cm" name="hardware_cm" remote="teameos" revision="kk4.4" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" revision="kk4.4" />
