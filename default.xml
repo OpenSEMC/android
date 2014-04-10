@@ -438,6 +438,7 @@
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Mms" name="packages_apps_mms" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/Torch" name="packages_apps_torch" remote="teameos" revision="kk4.4" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="teameos" revision="kk4.4" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="teameos" revision="kk4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="teameos"  revision="kk4.4" groups="pdk,linux,arm" />
