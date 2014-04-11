@@ -482,6 +482,7 @@
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,mako" />
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,kernel,moto,motorola,xoom,wingray,stingray,umts_everest,everest" />
   <project path="kernel/oppo/msm8960" name="kernel_oppo_msm8960" remote="teameos" revision="kk4.4" groups="notdefault,kernel,oppo,find5,n1" />
+  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="teameos" revision="kk4.4" groups="notdefault,kernel,samsung,manta" />
   <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,kernel,samsung,tuna,maguro,toro,toroplus" />
   
   <!-- TeamEos Vendors -->
