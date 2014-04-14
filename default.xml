@@ -185,7 +185,6 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -398,6 +397,7 @@
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/libselinux" name="external_libselinux" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/openssl" name="external_openssl" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/proguard" name="external_proguard" remote="teameos" revision="kk4.4" groups="pdk-java" />
   <project path="external/rsync" name="external_rsync" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/sepolicy" name="external_sepolicy" remote="teameos" revision="kk4.4" groups="pdk" />
