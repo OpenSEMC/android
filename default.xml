@@ -5,14 +5,15 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
+  <remote  name="caf"
+           fetch="git://codeaurora.org/" />
+
   <remote  name="github"
            fetch="git://github.com/" />
 
   <remote  name="linaro-android"
-           fetch="git://android.git.linaro.org/" />
-
-  <remote  name="caf"
-           fetch="git://codeaurora.org/" />
+           fetch="git://android.git.linaro.org/"
+           review="http://review.android.git.linaro.org/" />
 
   <remote  name="teameos"
            fetch="git://github.com/teameos/"
