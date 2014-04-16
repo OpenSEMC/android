@@ -12,11 +12,12 @@
            fetch="git://github.com/" />
 
   <remote  name="linaro-android"
-           fetch="git://android.git.linaro.org/" />
+           fetch="git://android.git.linaro.org/"
+           review="http://review.android.git.linaro.org/" />
 
   <remote  name="teameos"
-           review="http://node4-c6100.codefi.re"
            fetch="git://github.com/teameos/"
+           review="http://review.teameos.org"
            sync-j="4"
            revision="kk4.4" />
 
