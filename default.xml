@@ -20,6 +20,9 @@
            sync-j="4"
            revision="kk4.4" />
 
+  <remote  name="opensemc"
+           fetch="git://github.com/OpenSEMC/" />
+
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
@@ -512,4 +515,13 @@
   <project path="vendor/T-Mobile/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="teameos" revision="kk4.4" />
   <project path="vendor/T-Mobile/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="teameos" revision="kk4.4" />
   <project path="vendor/widevine" name="vendor_widevine" remote="teameos" revision="kk4.4" groups="vendor,widevine" />
+
+  <!-- OpenSEMC Configs -->
+  <project path="device/sony/nozomi" name="android_device_sony_nozomi" remote="opensemc" revision="kk4.4" />
+  <project path="device/sony/fuji-common" name="android_device_sony_fuji-common" remote="opensemc" revision="kk4.4" />
+  <project path="kernel/sony/msm8x60" name="android_kernel_sony_msm8x60" remote="opensemc" revision="kk_elite" />
+  <project path="vendor/broadcom/wlan" name="vendor_broadcom_wlan" remote="opensemc" revision="cm-11.0" />
+  <project path="vendor/sony" name="proprietary_vendor_sony" remote="opensemc" revision="cm-11.0" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="opensemc" revision="cm-11.0" groups="qcom" />
+
 </manifest>
