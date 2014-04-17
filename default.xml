@@ -477,6 +477,7 @@
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray_cdma" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,find5" />
   <project path="device/oppo/n1" name="device_oppo_n1" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,n1" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,maguro" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toro" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toroplus" />
