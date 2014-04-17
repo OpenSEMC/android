@@ -459,9 +459,14 @@
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="teameos" revision="kk4.4" groups="notdefault,device,asus,tilapia" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7,m7spr,m7vzw" />
   <project path="device/htc/m7" name="device_htc_m7" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7," />
+  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7spr," />
+  <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7vzw," />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,dlx,m7,m7spr,m7vzw,jewel,evita,ville,fireball" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,jewel,evita,ville,fireball" />
   <project path="device/htc/evita" name="device_htc_evita" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,evita" />
+  <project path="device/htc/fireball" name="device_htc_fireball" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,fireball" />
+  <project path="device/htc/jewel" name="device_htc_jewel" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,jewel" />
+  <project path="device/htc/ville" name="device_htc_ville" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,ville" />
   <project path="device/lge/d800" name="device_lge_d800" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,d800" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,d800" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,hammerhead" />
