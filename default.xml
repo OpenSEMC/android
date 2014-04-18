@@ -78,7 +78,6 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
   <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" />
@@ -393,6 +392,7 @@
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="teameos" revision="kk4.4" />
   <project path="external/chromium_org" name="external_chromium_org" remote="teameos" revision="kk4.4" />
+  <project path="external/chromium_org/third_party/openssl" name="external_chromium_org_third_party_openssl" remote="teameos" revision="kk4.4" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/iw" name="external_iw" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
