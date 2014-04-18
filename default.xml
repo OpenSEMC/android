@@ -12,11 +12,12 @@
            fetch="git://github.com/" />
 
   <remote  name="linaro-android"
-           fetch="git://android.git.linaro.org/" />
+           fetch="git://android.git.linaro.org/"
+           review="http://review.android.git.linaro.org/" />
 
   <remote  name="teameos"
-           review="http://node4-c6100.codefi.re"
            fetch="git://github.com/teameos/"
+           review="http://review.teameos.org"
            sync-j="4"
            revision="kk4.4" />
 
@@ -80,7 +81,6 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
   <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" />
@@ -395,6 +395,7 @@
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="teameos" revision="kk4.4" />
   <project path="external/chromium_org" name="external_chromium_org" remote="teameos" revision="kk4.4" />
+  <project path="external/chromium_org/third_party/openssl" name="external_chromium_org_third_party_openssl" remote="teameos" revision="kk4.4" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/iw" name="external_iw" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
@@ -461,9 +462,14 @@
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="teameos" revision="kk4.4" groups="notdefault,device,asus,tilapia" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7,m7spr,m7vzw" />
   <project path="device/htc/m7" name="device_htc_m7" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7," />
+  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7spr," />
+  <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7vzw," />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,dlx,m7,m7spr,m7vzw,jewel,evita,ville,fireball" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,jewel,evita,ville,fireball" />
   <project path="device/htc/evita" name="device_htc_evita" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,evita" />
+  <project path="device/htc/fireball" name="device_htc_fireball" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,fireball" />
+  <project path="device/htc/jewel" name="device_htc_jewel" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,jewel" />
+  <project path="device/htc/ville" name="device_htc_ville" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,ville" />
   <project path="device/lge/d800" name="device_lge_d800" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,d800" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,d800" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,hammerhead" />
@@ -474,6 +480,7 @@
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray_cdma" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,find5" />
   <project path="device/oppo/n1" name="device_oppo_n1" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,n1" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,maguro" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toro" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toroplus" />
@@ -484,7 +491,7 @@
   <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="teameos" revision="kk4.4" groups="notdefault,kernel,asus,grouper" />
   <project path="kernel/htc/m7" name="kernel_htc_m7" remote="teameos" revision="kk4.4" groups="notdefault,kernel,htc,dlx" />
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" remote="teameos" revision="kk4.4" groups="notdefault,kernel,htc,msm8960,s4,m7,m7spr,m7vzw,evita,jewel,ville,fireball" />
-  <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" remote="teameos" revision="cm-11.0" groups="notdefault,kernel,lge,g2,d800" />
+  <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,g2,d800" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,hammerhead" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,mako" />
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,kernel,moto,motorola,xoom,wingray,stingray,umts_everest,everest" />
@@ -506,7 +513,7 @@
   <project path="vendor/nxp" name="vendor_nxp" remote="teameos" revision="kk4.4" groups="vendor,nxp" />
   <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="teameos" revision="kk4.4" groups="notdefault,vendor,oppo,find5" />
   <project path="vendor/oppo/n1" name="vendor_oppo_n1" remote="teameos" revision="kk4.4" groups="notdefault,vendor,oppo,n1" />
-  <project path="vendor/qcom" name="vendor_qcom" remote="teameos" revision="kk4.4" groups="vendor,qcom" />
+  <project path="vendor/qcom/opt" name="vendor_qcom_opt" remote="teameos" revision="kk4.4" groups="vendor,qcom" />
   <project path="vendor/samsung/maguro" name="vendor_samsung_maguro" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,maguro,tuna" />
   <project path="vendor/samsung/toro" name="vendor_samsung_toro" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,toro,tuna" />
   <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,toroplus,tuna" />
