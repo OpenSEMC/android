@@ -133,7 +133,6 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
@@ -396,6 +395,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/iw" name="external_iw" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/jpeg" name="external_jpeg" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/libselinux" name="external_libselinux" remote="teameos" revision="kk4.4" groups="pdk" />
