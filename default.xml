@@ -477,6 +477,7 @@
   <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,umts_everest" />
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray_cdma" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,find5" />
+  <project path="device/oppo/find7" name="device_oppo_find7" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,find7" />
   <project path="device/oppo/n1" name="device_oppo_n1" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,n1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,maguro" />
@@ -493,6 +494,7 @@
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,hammerhead" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,mako" />
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,kernel,moto,motorola,xoom,wingray,stingray,umts_everest,everest" />
+  <project path="kernel/oppo/find7" name="kernel_oppo_find7" remote="teameos" revision="kk4.4" groups="notdefault,kernel,oppo,find7" />
   <project path="kernel/oppo/msm8960" name="kernel_oppo_msm8960" remote="teameos" revision="kk4.4" groups="notdefault,kernel,oppo,find5,n1" />
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="teameos" revision="kk4.4" groups="notdefault,kernel,samsung,manta" />
   <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,kernel,samsung,tuna,maguro,toro,toroplus" />
@@ -510,6 +512,7 @@
   <project path="vendor/nvidia" name="vendor_nvidia" remote="teameos" revision="kk4.4" groups="vendor,nvidia" />
   <project path="vendor/nxp" name="vendor_nxp" remote="teameos" revision="kk4.4" groups="vendor,nxp" />
   <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="teameos" revision="kk4.4" groups="notdefault,vendor,oppo,find5" />
+  <project path="vendor/oppo/find7" name="vendor_oppo_find7" remote="teameos" revision="kk4.4" groups="notdefault,vendor,oppo,find7" />
   <project path="vendor/oppo/n1" name="vendor_oppo_n1" remote="teameos" revision="kk4.4" groups="notdefault,vendor,oppo,n1" />
   <project path="vendor/qcom/opt" name="vendor_qcom_opt" remote="teameos" revision="kk4.4" groups="vendor,qcom" />
   <project path="vendor/samsung/maguro" name="vendor_samsung_maguro" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,maguro,tuna" />
