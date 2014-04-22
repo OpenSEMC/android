@@ -397,8 +397,10 @@
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/jpeg" name="external_jpeg" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/libncurses" name="external_libncurses" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/libselinux" name="external_libselinux" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/nano" name="external_nano" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/openssl" name="external_openssl" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/proguard" name="external_proguard" remote="teameos" revision="kk4.4" groups="pdk-java" />
   <project path="external/rsync" name="external_rsync" remote="teameos" revision="kk4.4" groups="notdefault" />
