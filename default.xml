@@ -446,7 +446,10 @@
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="teameos" revision="kk4.4"/>
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="teameos" revision="kk4.4" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="teameos" revision="kk4.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="teameos"  revision="kk4.4" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="teameos"  revision="kk4.4" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9-linaro" remote="teameos"  revision="kk4.4" groups="pdk,linux,arm" />
   <project path="system/core" name="system_core" groups="pdk" remote="teameos" revision="kk4.4" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="teameos" revision="kk4.4" />
   <project path="system/media" name="system_media" groups="pdk" remote="teameos" revision="kk4.4" />
