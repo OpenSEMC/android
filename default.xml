@@ -392,6 +392,7 @@
   <project path="external/chromium_org" name="external_chromium_org" remote="teameos" revision="kk4.4" />
   <project path="external/chromium_org/third_party/openssl" name="external_chromium_org_third_party_openssl" remote="teameos" revision="kk4.4" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/htop" name="external_htop" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/iw" name="external_iw" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/jpeg" name="external_jpeg" remote="teameos" revision="kk4.4" groups="pdk" />
