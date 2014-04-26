@@ -17,7 +17,7 @@
 
   <remote  name="teameos"
            fetch="git://github.com/teameos/"
-           review="http://review.teameos.org"
+           review="http://review.teameos.org/"
            sync-j="4"
            revision="kk4.4" />
 
