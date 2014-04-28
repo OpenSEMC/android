@@ -44,7 +44,6 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -487,6 +486,7 @@
   <project path="device/oppo/n1" name="device_oppo_n1" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,n1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,maguro" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,manta" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toro" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toroplus" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,maguro,toro,toroplus" />
