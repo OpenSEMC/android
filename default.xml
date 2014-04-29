@@ -473,8 +473,12 @@
   <project path="device/htc/fireball" name="device_htc_fireball" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,fireball" />
   <project path="device/htc/jewel" name="device_htc_jewel" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,jewel" />
   <project path="device/htc/ville" name="device_htc_ville" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,ville" />
-  <project path="device/lge/d800" name="device_lge_d800" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,d800" />
-  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,d800" />
+  <project path="device/lge/d800" name="device_lge_d800" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2.d800" />
+  <project path="device/lge/d801" name="device_lge_d801" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,d801" />
+  <project path="device/lge/d802" name="device_lge_d802" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,d802" />
+  <project path="device/lge/ls980" name="device_lge_ls980" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,ls980" />
+  <project path="device/lge/vs980" name="device_lge_vs980" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,vs980" />
+  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,d800,d801,d802,ls980,vs980" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,hammerhead" />
   <project path="device/lge/mako" name="device_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,mako" />
   <project path="device/moto/wingray" name="device_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,wingray" />
@@ -496,7 +500,7 @@
   <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="teameos" revision="kk4.4" groups="notdefault,kernel,asus,grouper" />
   <project path="kernel/htc/m7" name="kernel_htc_m7" remote="teameos" revision="kk4.4" groups="notdefault,kernel,htc,dlx" />
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" remote="teameos" revision="kk4.4" groups="notdefault,kernel,htc,msm8960,s4,m7,m7spr,m7vzw,evita,jewel,ville,fireball" />
-  <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,g2,d800" />
+  <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,g2,d800,d801,d802,ls980,vs980" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,hammerhead" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,mako" />
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,kernel,moto,motorola,xoom,wingray,stingray,umts_everest,everest" />
