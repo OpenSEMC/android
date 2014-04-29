@@ -527,6 +527,7 @@
   <project path="vendor/oppo/n1" name="vendor_oppo_n1" remote="teameos" revision="kk4.4" groups="notdefault,vendor,oppo,n1" />
   <project path="vendor/qcom/opt" name="vendor_qcom_opt" remote="teameos" revision="kk4.4" groups="vendor,qcom" />
   <project path="vendor/samsung/maguro" name="vendor_samsung_maguro" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,maguro,tuna" />
+  <project path="vendor/samsung/manta" name="vendor_samsung_manta" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,manta" />
   <project path="vendor/samsung/toro" name="vendor_samsung_toro" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,toro,tuna" />
   <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,toroplus,tuna" />
   <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,maguro,toro,toroplus,tuna" />
