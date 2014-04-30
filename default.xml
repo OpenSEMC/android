@@ -47,7 +47,6 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -268,15 +267,11 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
@@ -305,7 +300,6 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
@@ -415,6 +409,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="teameos" revision="kk4.4" />
   <project path="frameworks/native" name="frameworks_native" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="frameworks/opt/telephony-msim" name="frameworks_opt_telephony-msim" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/opt/mms" name="frameworks_opt_mms" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="hardware/akm" name="hardware_akm" remote="teameos" revision="kk4.4" />
@@ -440,14 +435,19 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/EOSTools" name="packages_apps_EOSTools" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Mms" name="packages_apps_mms" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Torch" name="packages_apps_torch" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="teameos" revision="kk4.4"/>
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="teameos" revision="kk4.4" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="teameos" revision="kk4.4" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="teameos" revision="kk4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
@@ -477,8 +477,12 @@
   <project path="device/htc/fireball" name="device_htc_fireball" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,fireball" />
   <project path="device/htc/jewel" name="device_htc_jewel" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,jewel" />
   <project path="device/htc/ville" name="device_htc_ville" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,ville" />
-  <project path="device/lge/d800" name="device_lge_d800" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,d800" />
-  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,d800" />
+  <project path="device/lge/d800" name="device_lge_d800" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2.d800" />
+  <project path="device/lge/d801" name="device_lge_d801" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,d801" />
+  <project path="device/lge/d802" name="device_lge_d802" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,d802" />
+  <project path="device/lge/ls980" name="device_lge_ls980" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,ls980" />
+  <project path="device/lge/vs980" name="device_lge_vs980" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,vs980" />
+  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,d800,d801,d802,ls980,vs980" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,hammerhead" />
   <project path="device/lge/mako" name="device_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,mako" />
   <project path="device/moto/wingray" name="device_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,wingray" />
@@ -490,6 +494,7 @@
   <project path="device/oppo/n1" name="device_oppo_n1" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,n1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,maguro" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,manta" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toro" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,toroplus" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,device,samsung,tuna,maguro,toro,toroplus" />
@@ -499,7 +504,7 @@
   <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="teameos" revision="kk4.4" groups="notdefault,kernel,asus,grouper" />
   <project path="kernel/htc/m7" name="kernel_htc_m7" remote="teameos" revision="kk4.4" groups="notdefault,kernel,htc,dlx" />
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" remote="teameos" revision="kk4.4" groups="notdefault,kernel,htc,msm8960,s4,m7,m7spr,m7vzw,evita,jewel,ville,fireball" />
-  <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,g2,d800" />
+  <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,g2,d800,d801,d802,ls980,vs980" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,hammerhead" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,mako" />
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,kernel,moto,motorola,xoom,wingray,stingray,umts_everest,everest" />
@@ -525,6 +530,7 @@
   <project path="vendor/oppo/n1" name="vendor_oppo_n1" remote="teameos" revision="kk4.4" groups="notdefault,vendor,oppo,n1" />
   <project path="vendor/qcom/opt" name="vendor_qcom_opt" remote="teameos" revision="kk4.4" groups="vendor,qcom" />
   <project path="vendor/samsung/maguro" name="vendor_samsung_maguro" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,maguro,tuna" />
+  <project path="vendor/samsung/manta" name="vendor_samsung_manta" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,manta" />
   <project path="vendor/samsung/toro" name="vendor_samsung_toro" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,toro,tuna" />
   <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,toroplus,tuna" />
   <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,maguro,toro,toroplus,tuna" />
