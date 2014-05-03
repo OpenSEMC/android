@@ -405,7 +405,7 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/av" name="frameworks_av" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="teameos" revision="kk4.4" />
-  <project path="frameworks/native" name="frameworks_native" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="opensemc" revision="kk4.4" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/opt/telephony-msim" name="frameworks_opt_telephony-msim" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/opt/mms" name="frameworks_opt_mms" remote="teameos" revision="kk4.4" groups="pdk" />
