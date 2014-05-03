@@ -419,6 +419,7 @@
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="teameos" revision="kk4.4" groups="qcom" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="teameos" revision="kk4.4" groups="qcom" />
