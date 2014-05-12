@@ -384,6 +384,7 @@
   <project path="external/iw" name="external_iw" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/jpeg" name="external_jpeg" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/libgdx" name="external_libgdx" remote="teameos" revision="kk4.4" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libncurses" name="external_libncurses" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="teameos" revision="kk4.4" groups="notdefault" />
