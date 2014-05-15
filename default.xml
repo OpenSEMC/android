@@ -518,7 +518,10 @@
   <project path="vendor/imgtec" name="vendor_imgtec" remote="teameos" revision="kk4.4" groups="vendor,imgtec" />
   <project path="vendor/invensense" name="vendor_invensense" remote="teameos" revision="kk4.4" groups="vendor,invensense" />
   <project path="vendor/lge" name="vendor_lge" remote="teameos" revision="kk4.4" groups="notdefault,vendor,lge" />
-  <project path="vendor/motorola" name="vendor_motorola" remote="teameos" revision="kk4.4" groups="notdefault,vendor,motorola,moto,mb886,xoom,wingray,stingray,umts_everest,singray_cdma" /> 
+  <project path="vendor/moto/wingray" name="vendor_moto_wingray" remote="teameos" revision="kk4.4" groups="vendor,moto,wingray,stingray,stingray_cdma,everest" />
+  <project path="vendor/moto/stingray" name="vendor_moto_stingray" remote="teameos" revision="kk4.4" groups="vendor,moto,stingray" />
+  <project path="vendor/moto/stingray_cdma" name="vendor_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="vendor,moto,stingray_cdma" />
+  <project path="vendor/moto/everest" name="vendor_moto_everest" remote="teameos" revision="kk4.4" groups="vendor,moto,everest" />
   <project path="vendor/nvidia" name="vendor_nvidia" remote="teameos" revision="kk4.4" groups="vendor,nvidia" />
   <project path="vendor/nxp" name="vendor_nxp" remote="teameos" revision="kk4.4" groups="vendor,nxp" />
   <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="teameos" revision="kk4.4" groups="notdefault,vendor,oppo,find5" />
