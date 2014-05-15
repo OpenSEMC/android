@@ -249,7 +249,6 @@
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
@@ -424,6 +423,7 @@
   <project path="hardware/qcom/media-cm_aosp" name="hardware_qcom_media-cm_aosp" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="hardware_qcom_msm8960" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="teameos" revision="kk4.4" groups="qcom" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/ril" name="hardware_ril" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="hardware/samsung" name="hardware_samsung" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" revision="kk4.4" />
