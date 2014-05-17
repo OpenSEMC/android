@@ -252,7 +252,6 @@
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
@@ -265,7 +264,6 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
@@ -274,7 +272,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
@@ -298,7 +295,6 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
@@ -391,6 +387,7 @@
   <project path="external/iw" name="external_iw" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/icu4c" name="external_icu4c" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/jpeg" name="external_jpeg" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/libgdx" name="external_libgdx" remote="teameos" revision="kk4.4" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libncurses" name="external_libncurses" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="teameos" revision="kk4.4" groups="notdefault" />
@@ -429,11 +426,13 @@
   <project path="hardware/qcom/media-cm_aosp" name="hardware_qcom_media-cm_aosp" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="hardware_qcom_msm8960" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="teameos" revision="kk4.4" groups="qcom" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/ril" name="hardware_ril" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="hardware/samsung" name="hardware_samsung" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="teameos" revision="kk4.4" />
@@ -442,11 +441,13 @@
   <project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Mms" name="packages_apps_mms" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Torch" name="packages_apps_torch" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="teameos" revision="kk4.4"/>
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="teameos" revision="kk4.4" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="teameos" revision="kk4.4" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="teameos" revision="kk4.4" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="teameos" revision="kk4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
@@ -521,7 +522,10 @@
   <project path="vendor/imgtec" name="vendor_imgtec" remote="teameos" revision="kk4.4" groups="vendor,imgtec" />
   <project path="vendor/invensense" name="vendor_invensense" remote="teameos" revision="kk4.4" groups="vendor,invensense" />
   <project path="vendor/lge" name="vendor_lge" remote="teameos" revision="kk4.4" groups="notdefault,vendor,lge" />
-  <project path="vendor/motorola" name="vendor_motorola" remote="teameos" revision="kk4.4" groups="notdefault,vendor,motorola,moto,mb886,xoom,wingray,stingray,umts_everest,singray_cdma" /> 
+  <project path="vendor/moto/wingray" name="vendor_moto_wingray" remote="teameos" revision="kk4.4" groups="vendor,moto,wingray,stingray,stingray_cdma,everest" />
+  <project path="vendor/moto/stingray" name="vendor_moto_stingray" remote="teameos" revision="kk4.4" groups="vendor,moto,stingray" />
+  <project path="vendor/moto/stingray_cdma" name="vendor_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="vendor,moto,stingray_cdma" />
+  <project path="vendor/moto/everest" name="vendor_moto_everest" remote="teameos" revision="kk4.4" groups="vendor,moto,everest" />
   <project path="vendor/nvidia" name="vendor_nvidia" remote="teameos" revision="kk4.4" groups="vendor,nvidia" />
   <project path="vendor/nxp" name="vendor_nxp" remote="teameos" revision="kk4.4" groups="vendor,nxp" />
   <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="teameos" revision="kk4.4" groups="notdefault,vendor,oppo,find5" />
